@@ -1,0 +1,28 @@
+{
+  "name": "TestPlugin",
+  "description": "A plugin for ChatGPT which gives Provider information",
+  "version": "1.0.0",
+  "author": "Reetik Chandra",
+  "inputs": [
+    {
+      "name": "input_text",
+      "type": "string",
+      "description": "The input text for the plugin"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "output_text",
+      "type": "string",
+      "description": "The output text from the plugin"
+    }
+  ],
+  //"dependencies": {
+  //  "library1": "1.2.0",
+  //  "library2": "3.1.2"
+  // },
+  "configuration": {
+    "option1": true,
+    "option2": false
+  }
+}
